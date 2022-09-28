@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+		<listener class-name="com.bw.qa.extentreport.ExtentReporterNG" />
+	</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.bw.qa.testcases.HomePageTest"/>
+      <class name="com.bw.qa.testcases.AddAddressTest"/>
+      <class name="com.bw.qa.testcases.SearchBookPageTest"/>
+      <class name="com.bw.qa.testcases.WishListPageTest"/>
+      <class name="com.bw.qa.testcases.LoginPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
